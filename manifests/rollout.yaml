@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/dumitrustefania/ci_cd_lab:latest
+          image: ghcr.io/dumitrustefania/ci_cd_lab:non-existent
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
